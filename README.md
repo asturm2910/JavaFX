@@ -1,2 +1,2 @@
 # JavaFX
-JavaFX Labratory
+JavaFX Labratory by Alex Sturm
