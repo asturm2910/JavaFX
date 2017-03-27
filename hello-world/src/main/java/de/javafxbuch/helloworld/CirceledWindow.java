@@ -20,6 +20,7 @@ public class CirceledWindow extends Application{
 		Circle circle = new Circle(100, 100, 100);
 		StackPane root = new StackPane();
 		Button b = new Button("Press Me!");
+		b.setId("B1");
 		b.setOnAction(e -> circle.setFill(Color.BLUE));
 		root.getChildren().add(b);
 		root.setShape(circle);
