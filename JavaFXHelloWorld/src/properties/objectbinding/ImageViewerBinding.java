@@ -14,6 +14,7 @@ public class ImageViewerBinding extends ObjectBinding<Image> {
 		
 	}
 	
+	
 	@Override
 	protected Image computeValue() {
 		System.out.println("computeValue: " + urlText.get());
